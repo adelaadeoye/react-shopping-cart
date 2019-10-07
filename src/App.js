@@ -27,11 +27,11 @@ function App() {
     setCart([...cart, newCartItem]);
   };
 
-  const removeItem=product=>{
+  const removeItem=productID=>{
 
-	  const newCart=cart.filter(item=>item.id !==product);
+	  const newCart=cart.filter(item=>item.id !==productID);
 	  setCart(newCart);
-	console.log(product)
+	console.log(productID)
   }
 
   return (
