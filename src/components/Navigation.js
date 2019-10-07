@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
+//Contex
 const Navigation = props => {
 	return (
 		<div className="navigation">
