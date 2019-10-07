@@ -18,7 +18,7 @@ function App() {
   const addItem = item => {
     // add the given item to the cart
     const newCartItem = {
-      id: item.id,
+      id: new Date(),
       title: item.title,
       price: item.price,
       image: item.image
