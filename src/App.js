@@ -20,7 +20,7 @@ function App() {
 			image:item.image,
 		};
 		
-		setCart([...cart,newCartItem]);
+		setCart([...cart, newCartItem]);
      
 	
 	};
